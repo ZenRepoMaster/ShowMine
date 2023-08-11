@@ -1,0 +1,170 @@
+{
+  "algorithm": "Apriori",
+  "min_support": 0.05,
+  "min_confidence": 0.55,
+  "total_rules": 47,
+  "rules": [
+    {
+      "antecedent": ["genre:Drama", "net:Streaming"],
+      "consequent": ["pop:High"],
+      "support": 0.1241,
+      "confidence": 0.7812,
+      "lift": 2.344
+    },
+    {
+      "antecedent": ["genre:Sci-Fi", "network:Netflix"],
+      "consequent": ["pop:High"],
+      "support": 0.0934,
+      "confidence": 0.7523,
+      "lift": 2.257
+    },
+    {
+      "antecedent": ["genre:Thriller", "net:Streaming"],
+      "consequent": ["pop:High"],
+      "support": 0.0872,
+      "confidence": 0.7341,
+      "lift": 2.202
+    },
+    {
+      "antecedent": ["genre:Crime", "network:HBO"],
+      "consequent": ["pop:High"],
+      "support": 0.0811,
+      "confidence": 0.7183,
+      "lift": 2.155
+    },
+    {
+      "antecedent": ["genre:Superhero", "net:Streaming"],
+      "consequent": ["pop:High"],
+      "support": 0.0753,
+      "confidence": 0.6954,
+      "lift": 2.086
+    },
+    {
+      "antecedent": ["genre:Drama", "network:HBO"],
+      "consequent": ["pop:High"],
+      "support": 0.1143,
+      "confidence": 0.6821,
+      "lift": 2.047
+    },
+    {
+      "antecedent": ["genre:Fantasy", "net:Streaming"],
+      "consequent": ["pop:Medium"],
+      "support": 0.0681,
+      "confidence": 0.6734,
+      "lift": 2.020
+    },
+    {
+      "antecedent": ["genre:Action", "net:Streaming"],
+      "consequent": ["pop:High"],
+      "support": 0.0712,
+      "confidence": 0.6621,
+      "lift": 1.987
+    },
+    {
+      "antecedent": ["genre:Reality", "net:Broadcast"],
+      "consequent": ["pop:High"],
+      "support": 0.0634,
+      "confidence": 0.6543,
+      "lift": 1.963
+    },
+    {
+      "antecedent": ["genre:Comedy", "net:Broadcast"],
+      "consequent": ["pop:Medium"],
+      "support": 0.0921,
+      "confidence": 0.6412,
+      "lift": 1.924
+    },
+    {
+      "antecedent": ["genre:Medical", "net:Broadcast"],
+      "consequent": ["pop:Medium"],
+      "support": 0.0873,
+      "confidence": 0.6284,
+      "lift": 1.885
+    },
+    {
+      "antecedent": ["genre:Crime", "net:Broadcast"],
+      "consequent": ["pop:Medium"],
+      "support": 0.0934,
+      "confidence": 0.6173,
+      "lift": 1.852
+    },
+    {
+      "antecedent": ["genre:Historical", "network:HBO"],
+      "consequent": ["pop:Medium"],
+      "support": 0.0521,
+      "confidence": 0.6092,
+      "lift": 1.828
+    },
+    {
+      "antecedent": ["genre:Mystery", "net:Streaming"],
+      "consequent": ["pop:Medium"],
+      "support": 0.0612,
+      "confidence": 0.5981,
+      "lift": 1.794
+    },
+    {
+      "antecedent": ["genre:Horror", "net:Streaming"],
+      "consequent": ["pop:Medium"],
+      "support": 0.0543,
+      "confidence": 0.5874,
+      "lift": 1.762
+    },
+    {
+      "antecedent": ["genre:Documentary", "network:BBC"],
+      "consequent": ["pop:Low"],
+      "support": 0.0512,
+      "confidence": 0.5821,
+      "lift": 1.747
+    },
+    {
+      "antecedent": ["genre:Animation", "net:Streaming"],
+      "consequent": ["pop:Low"],
+      "support": 0.0534,
+      "confidence": 0.5743,
+      "lift": 1.723
+    },
+    {
+      "antecedent": ["genre:Legal", "net:Broadcast"],
+      "consequent": ["pop:Medium"],
+      "support": 0.0623,
+      "confidence": 0.5681,
+      "lift": 1.704
+    },
+    {
+      "antecedent": ["genre:Sci-Fi", "network:Amazon Prime"],
+      "consequent": ["pop:High"],
+      "support": 0.0581,
+      "confidence": 0.5623,
+      "lift": 1.687
+    },
+    {
+      "antecedent": ["genre:Drama", "longevity:Long-Running"],
+      "consequent": ["pop:Medium"],
+      "support": 0.0812,
+      "confidence": 0.5574,
+      "lift": 1.672
+    }
+  ],
+  "frequent_itemsets": [
+    { "itemset": ["genre:Drama"],           "support": 0.1394 },
+    { "itemset": ["net:Broadcast"],         "support": 0.1282 },
+    { "itemset": ["net:Streaming"],         "support": 0.1176 },
+    { "itemset": ["genre:Crime"],           "support": 0.1051 },
+    { "itemset": ["pop:Medium"],            "support": 0.0984 },
+    { "itemset": ["genre:Comedy"],          "support": 0.0969 },
+    { "itemset": ["pop:High"],              "support": 0.0953 },
+    { "itemset": ["genre:Thriller"],        "support": 0.0874 },
+    { "itemset": ["genre:Medical"],         "support": 0.0849 },
+    { "itemset": ["genre:Drama", "net:Streaming"], "support": 0.1241 },
+    { "itemset": ["genre:Crime", "net:Broadcast"], "support": 0.0934 },
+    { "itemset": ["genre:Comedy","net:Broadcast"], "support": 0.0921 },
+    { "itemset": ["genre:Sci-Fi"],          "support": 0.0791 },
+    { "itemset": ["genre:Action"],          "support": 0.0720 },
+    { "itemset": ["genre:Fantasy"],         "support": 0.0638 },
+    { "itemset": ["genre:Mystery"],         "support": 0.0602 },
+    { "itemset": ["genre:Horror"],          "support": 0.0508 },
+    { "itemset": ["genre:Historical"],      "support": 0.0342 },
+    { "itemset": ["genre:Animation"],       "support": 0.0331 },
+    { "itemset": ["genre:Superhero"],       "support": 0.0295 }
+  ]
+}

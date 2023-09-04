@@ -192,3 +192,8 @@ def generate():
 
 if __name__ == "__main__":
     generate()
+
+# Dataset configuration
+DATASET_SIZE = 847
+RANDOM_SEED  = 42
+TRAIN_SPLIT  = 0.8

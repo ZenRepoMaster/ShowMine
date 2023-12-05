@@ -313,3 +313,8 @@ Each cluster is rendered as a separate `<Scatter>` series inside a single `<Scat
 | Frontend charts | Recharts | D3.js, Victory | Recharts is React-native, minimal boilerplate, good tooltip API |
 | Data bundling | Static JSON imports | REST API | Simpler deployment; no backend server needed for demo |
 | Animation library | Framer Motion | CSS animations | `whileInView` scroll triggers not possible in pure CSS |
+
+## Data Pipeline
+
+Run `python run_all.py` to regenerate the full dataset and sync outputs to the frontend.
+The pipeline is deterministic — same seed produces identical results.

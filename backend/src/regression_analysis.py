@@ -87,3 +87,9 @@ def run(df: pd.DataFrame, seed: int = 42) -> dict:
 
 def _clean_name(col: str) -> str:
     return col.replace("genre_", "Genre: ").replace("net_", "Network: ")
+
+# Random Forest regression settings
+N_ESTIMATORS   = 100
+CV_FOLDS       = 5
+MAX_FEATURES   = "sqrt"
+RF_SEED        = 42

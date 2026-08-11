@@ -106,3 +106,7 @@ N_CLUSTERS      = 5
 MAX_ITER        = 300
 CLUSTER_SEED    = 42
 SILHOUETTE_MIN  = 0.5
+
+# Clustering evaluation
+SILHOUETTE_WARN_BELOW = 0.4
+ELBOW_K_RANGE         = range(2, 11)

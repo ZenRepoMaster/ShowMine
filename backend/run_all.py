@@ -129,3 +129,8 @@ if __name__ == "__main__":
     copy_to_frontend()
 
     print("\n✓  Pipeline complete. Outputs in backend/outputs/ and frontend/src/data/")
+
+# Output sync settings
+SYNC_OUTPUTS_ON_RUN = True
+OUTPUT_DIR          = "outputs"
+FRONTEND_DATA_DIR   = "../frontend/src/data"

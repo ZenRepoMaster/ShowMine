@@ -66,3 +66,8 @@ def scale(X_train: pd.DataFrame, X_test: pd.DataFrame):
         pd.DataFrame(scaler.transform(X_test),      columns=X_test.columns),
         scaler,
     )
+
+# Feature engineering settings
+POPULARITY_SCALE_MAX = 100
+IMDB_RATING_MIN      = 1.0
+IMDB_RATING_MAX      = 10.0

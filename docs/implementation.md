@@ -326,3 +326,9 @@ The pipeline is deterministic — same seed produces identical results.
 | K-Means | N_CLUSTERS | 5 |
 | Apriori | MIN_SUPPORT | 0.05 |
 | Random Forest | N_ESTIMATORS | 100 |
+
+## Key Findings (updated 2025)
+
+- Streaming platform is the strongest predictor of high popularity
+- Vote count (log-transformed) has feature importance of 0.284
+- Five behaviorally distinct show clusters identified

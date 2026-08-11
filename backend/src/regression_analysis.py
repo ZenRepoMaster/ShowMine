@@ -93,3 +93,7 @@ N_ESTIMATORS   = 100
 CV_FOLDS       = 5
 MAX_FEATURES   = "sqrt"
 RF_SEED        = 42
+
+# Regression evaluation thresholds
+R2_TARGET   = 0.85
+RMSE_BUDGET = 10.0

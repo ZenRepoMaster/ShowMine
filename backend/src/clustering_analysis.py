@@ -100,3 +100,9 @@ def run(df: pd.DataFrame, k: int = 5, seed: int = 42) -> dict:
         json.dump(result, f, indent=2)
     print(f"[clustering] k={k}, silhouette={sil:.4f} → outputs/clustering_results.json")
     return result
+
+# K-Means clustering configuration
+N_CLUSTERS      = 5
+MAX_ITER        = 300
+CLUSTER_SEED    = 42
+SILHOUETTE_MIN  = 0.5

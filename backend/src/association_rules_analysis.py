@@ -85,3 +85,9 @@ def run(df: pd.DataFrame,
         json.dump(result, f, indent=2)
     print(f"[assoc_rules] {len(rules)} rules → outputs/association_rules.json")
     return result
+
+# Apriori association rule parameters
+MIN_SUPPORT    = 0.05
+MIN_CONFIDENCE = 0.6
+MIN_LIFT       = 1.0
+MAX_RULES      = 50
